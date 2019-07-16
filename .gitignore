@@ -1,0 +1,51 @@
+# Generic Qt and C++ patterns
+*.moc
+Makefile*
+*.so.*
+*.so
+*.so.debug
+*.o
+.cd.rc
+*.swp
+core
+moc_*.cpp
+*.Debug
+*.Release
+*.pdb
+*.idb
+*.ib_pdb_index
+ui_*.h
+qrc_*.cpp
+Debug/
+Release/
+*.log
+*.autosave
+.*.stash
+*.qm
+
+# QtCreator project files
+*.pro.user
+=======
+*.pro.user*
+*~
+
+# CMake specific
+CMakeCache.txt
+CMakeLists.txt.user
+CMakeFiles
+CMakeScripts
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+*_autogen
+*_parameters
+*.depends
+CPackConfig.cmake
+CPackSourceConfig.cmake
+cmake_uninstall.cmake
+
+# Project specific
+VERSION_FILE
+src/qregexp-editor
+src/qregexp_editor-version.cpp
+src/tests/PatternFilterTest
