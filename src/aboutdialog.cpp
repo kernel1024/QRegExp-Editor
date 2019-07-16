@@ -24,7 +24,7 @@
 #include <QtCore/QSettings>
 #include <QtCore/QDebug>
 
-#include <QtGui/QCloseEvent>
+#include <QCloseEvent>
 
 AboutDialog::AboutDialog(QWidget *parent)
     : QDialog(parent)

@@ -29,7 +29,7 @@
 #include <QtCore/QStringList>
 #include <QtCore/QSettings>
 
-#include <QtGui/QMainWindow>
+#include <QMainWindow>
 
 namespace Ui {
     class MainWindow;

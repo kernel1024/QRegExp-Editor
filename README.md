@@ -23,3 +23,5 @@ QRegExp-Editor can be found in the file INSTALL. If you run into any issues
 while installing or using QRegExp-Editor you can find help in the official 
 forum and use the bug tracker to enter new bug reports. Both can be found at
 the aforementioned project site.
+
+Updated to Qt5 by kernel1024.

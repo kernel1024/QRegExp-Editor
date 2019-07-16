@@ -23,7 +23,7 @@
 // Qt
 #include <QtCore/QDebug>
 
-#include <QtGui/QFont>
+#include <QFont>
 
 RegExpModel::RegExpModel(QObject *parent)
     : QAbstractItemModel(parent)
@@ -210,7 +210,7 @@ QVariant RegExpModel::data(const QModelIndex &index, int role) const
 
     if (role == Qt::ForegroundRole && t->type() == TreeItem::SUB_STRING && index.column() == 1) {
         if (t->data().toString().isEmpty()) {
-            return Qt::gray;
+            return QColor(Qt::gray);
         }
     }
 

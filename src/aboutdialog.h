@@ -22,7 +22,7 @@
 
 #include "ui_aboutdialog.h"
 
-#include <QtGui/QDialog>
+#include <QDialog>
 
 class AboutDialog : public QDialog, public Ui::AboutDialog {
     Q_OBJECT

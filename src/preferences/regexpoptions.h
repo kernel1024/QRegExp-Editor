@@ -20,8 +20,8 @@
 #ifndef REGEXPOPTIONS_H
 #define REGEXPOPTIONS_H
 
-#include <QtGui/QColor>
-#include <QtCore/QDebug>
+#include <QColor>
+#include <QDebug>
 #include "patternfilter.h"
 
 struct RegexpOptions {

@@ -65,7 +65,7 @@ void RegexpSettings::fromSettings()
     m_options.showNewlines = s->value(QLatin1String(showNewlinesKeyC)).toBool();
     m_options.showParenthesesMatch = s->value(QLatin1String(showParenthesesMatchKeyC)).toBool();
     m_options.filters = (PatternFilter::Filters) s->value(QLatin1String(regexpFiltersKeyC)).toUInt();
-    m_options.highlightMatchColor = s->value(QLatin1String(highlightMatchColorKeyC), Qt::yellow).value<QColor>();
+    m_options.highlightMatchColor = s->value(QLatin1String(highlightMatchColorKeyC), QColor(Qt::yellow)).value<QColor>();
     s->endGroup();
 }
 

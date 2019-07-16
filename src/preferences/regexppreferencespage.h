@@ -26,8 +26,8 @@
 #include <QtCore/QObject>
 #include <QtCore/QPointer>
 
-#include <QtGui/QWidget>
-#include <QtGui/QPixmap>
+#include <QWidget>
+#include <QPixmap>
 
 namespace Ui {
     class RegexpPreferencesWidget;

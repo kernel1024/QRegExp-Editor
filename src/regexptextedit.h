@@ -20,8 +20,8 @@
 #ifndef REGEXPTEXTEDIT_H
 #define REGEXPTEXTEDIT_H
 
-#include <QtGui/QColor>
-#include <QtGui/QPlainTextEdit>
+#include <QColor>
+#include <QPlainTextEdit>
 
 class RegexpTextEditPrivate;
 
